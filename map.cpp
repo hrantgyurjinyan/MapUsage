@@ -2,7 +2,7 @@
 #include <map>
 #include <string>
 
-std::string intToString(int n) 
+std::string fromIntToString(int n) 
 {
     std::map<int, std::string> myMap = 
     {
@@ -35,7 +35,7 @@ int main()
     std::cout << "Enter a number: ";
     std::cin >> number;
     
-    std::string result = intToString(number);
+    std::string result = fromIntToString(number);
     std::cout << "The given number is: " << result << std::endl;
     
     return 0;
